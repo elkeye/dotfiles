@@ -4,11 +4,8 @@
 # Include
 !.gitignore
 
-!.config/
-!.config/.gitignore
-
-!.local/
-!.local/.gitignore
+!share
+!share/.gitignore
 
 # Ignore all files named .DS_Store or ending with .log
 **/.DS_Store

@@ -4,11 +4,9 @@
 # Include
 !.gitignore
 
-!.config/
-!.config/.gitignore
-
-!.local/
-!.local/.gitignore
+!rofi
+!icons
+!color-schemes
 
 # Ignore all files named .DS_Store or ending with .log
 **/.DS_Store
