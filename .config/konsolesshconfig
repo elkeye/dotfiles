@@ -1,0 +1,22 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][pi]
+hostname=192.168.1.59
+identifier=pi
+importedFromSshConfig=true
+port=
+profileName=Built-in
+sshkey=
+useSshConfig=true
+username=admin
+
+[SSH Config][vps1]
+hostname=185.221.155.52
+identifier=vps1
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=
+useSshConfig=true
+username=tpanqfmR

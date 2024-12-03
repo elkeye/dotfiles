@@ -1,0 +1,15 @@
+# Blocklist files/folders in same directory as the .gitignore file
+/*
+
+# Include
+!.gitignore
+
+!.config/
+!.config/.gitignore
+
+!.local/share
+!.local/share/.gitignore
+
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log

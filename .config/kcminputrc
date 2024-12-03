@@ -1,0 +1,11 @@
+[Keyboard]
+NumLock=1
+RepeatDelay=300
+
+[Libinput][5426][166][Razer Razer Viper V2 Pro]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Mouse]
+cursorSize=32
+cursorTheme=Catppuccin-Mocha-Mauve-Cursors
