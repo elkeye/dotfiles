@@ -3,6 +3,7 @@
 
 # Include
 !.gitignore
+!.dependencies
 
 !.config/
 !.config/.gitignore
