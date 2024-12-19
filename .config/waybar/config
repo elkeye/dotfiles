@@ -16,7 +16,6 @@
     "clock",
     "clock#simpleclock",
     "tray",
-    "custom/power",
   ],
   "custom/spotify": {
     "format": "  {}",
@@ -86,9 +85,4 @@
     "format": "|",
     "tooltip": false,
   },
-  "custom/power": {
-    "tooltip": false,
-    "on-click": "wlogout -p layer-shell &",
-    "format": "",
-  },
-}
+  }

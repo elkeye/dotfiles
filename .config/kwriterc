@@ -18,6 +18,10 @@ Text Font=monospace,9,-1,2,400,0,0,0,0,0,0,0,0,0,0,1
 Text Font Features=
 Word Wrap Marker=false
 
+[KTextEditor::Search]
+Search History=bin
+
 [MainWindow]
 1920x1080 screen: Height=1080
 1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true

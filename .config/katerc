@@ -3,10 +3,12 @@ Allow Tab Scrolling=true
 Auto Hide Tabs=false
 Close After Last=false
 Close documents with window=true
+Cycle To First Tab=true
 Days Meta Infos=30
 Diagnostics Limit=12000
 Diff Show Style=0
 Elide Tab Text=false
+Enable Context ToolView=false
 Expand Tabs=false
 Icon size for left and right sidebar buttons=32
 Modified Notification=false
@@ -15,6 +17,8 @@ Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
 Output With Date=false
+Quickopen Filter Mode=0
+Quickopen List Mode=true
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
@@ -37,20 +41,61 @@ Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=true
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Use Editor Config=true
+Word Wrap=true
+Word Wrap Column=100
+
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
 Color Theme=Catppuccin Mocha
 Line Height Multiplier=1
-Show Indentation Lines=false
+Show Indentation Lines=true
 Show Whole Bracket Expression=false
 Text Font=FiraCode Nerd Font,14,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 Text Font Features=
-Word Wrap Marker=false
+Word Wrap Marker=true
 
 [KTextEditor View]
 Allow Mark Menu=true
-Auto Brackets=true
+Auto Brackets=false
 Auto Center Lines=0
 Auto Completion=true
 Auto Completion Preselect First Entry=true
@@ -110,18 +155,21 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [Konsole]
-AutoSyncronizeMode=0
-KonsoleEscKeyBehaviour=true
+AutoSyncronizeMode=2
+KonsoleEscKeyBehaviour=false
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
 RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1920x1080 screen: Height=771
-1920x1080 screen: Width=869
+1920x1080 screen: Height=1080
+1920x1080 screen: Width=1920
 1920x1080 screen: Window-Maximized=true
 ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseSingleTab=true
 
 [UiSettings]
 ColorScheme=Catppuccin Mocha Mauve
@@ -143,7 +191,7 @@ AutoHover=true
 AutoImport=true
 BlockedServerCommandLines=
 CompletionDocumentation=true
-CompletionParens=true
+CompletionParens=false
 Diagnostics=true
 FormatOnSave=true
 HighlightGoto=true

@@ -4,6 +4,7 @@
 # Include
 !.gitignore
 
+!konsole
 !rofi
 !icons
 !color-schemes

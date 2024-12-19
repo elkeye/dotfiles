@@ -1,6 +1,16 @@
 [Global plugin config]
 manageProfile=false
 
+[SSH Config][dots]
+hostname=github.com
+identifier=dots
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=~/.ssh/github_dotfiles
+useSshConfig=true
+username=git
+
 [SSH Config][pi]
 hostname=192.168.1.59
 identifier=pi

@@ -1,1 +1,2 @@
-arch reps - cliphist dunst rofi pavucontrol waybar kitty hyprlock sddm
+arch reps - cliphist dunst rofi pavucontrol waybar kitty hyprlock sddm kate
+flatpaks = librewolf
