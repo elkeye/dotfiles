@@ -21,6 +21,16 @@ sshkey=
 useSshConfig=true
 username=admin
 
+[SSH Config][plmr]
+hostname=185.221.153.60
+identifier=plmr
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=
+useSshConfig=true
+username=admin
+
 [SSH Config][vps1]
 hostname=185.221.155.52
 identifier=vps1

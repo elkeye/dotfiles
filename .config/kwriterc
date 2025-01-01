@@ -10,7 +10,7 @@ Show Url Nav Bar=false
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
-Color Theme=Breeze Dark
+Color Theme=Catppuccin Mocha
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -25,3 +25,6 @@ Search History=bin
 1920x1080 screen: Height=1080
 1920x1080 screen: Width=1920
 1920x1080 screen: Window-Maximized=true
+
+[UiSettings]
+ColorScheme=Catppuccin Mocha Mauve

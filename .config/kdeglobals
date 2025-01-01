@@ -123,6 +123,7 @@ DirSelectDialog Size=853,591
 History Items[$e]=file:$HOME/pictures,file:$HOME/Documents,file:$HOME/downloads
 
 [General]
+ColorScheme=CatppuccinMochaMauve
 ColorSchemeHash=babca25f3a5cf7ece26a85de212ab43d0a141257
 UseSystemBell=true
 XftAntialias=true
@@ -133,6 +134,9 @@ font=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Noto Sans,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Noto Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=breeze-dark
 
 [KDE]
 AnimationDurationFactor=0

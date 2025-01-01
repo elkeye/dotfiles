@@ -1,6 +1,7 @@
 MenuBar=Disabled
 
 [General]
+LockPanels=false
 Version=202
 ViewPropsTimestamp=2024,8,17,13,24,25.379
 

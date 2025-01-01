@@ -1,2 +1,3 @@
-arch reps - cliphist dunst rofi pavucontrol waybar kitty hyprlock sddm kate
+arch reps = cliphist dunst rofi pavucontrol waybar kitty hyprlock sddm kate
 flatpaks = librewolf
+fonts = FiraCode Nerd
