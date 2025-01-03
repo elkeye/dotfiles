@@ -4,6 +4,7 @@
 # Include
 !.gitignore
 !.dependencies
+!readme.md
 
 !.config/
 !.config/.gitignore

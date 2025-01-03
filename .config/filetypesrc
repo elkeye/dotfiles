@@ -1,7 +1,0 @@
-[EmbedSettings]
-embed-application/pdf=false
-embed-application/x-bittorrent=false
-embed-application/x-compressed-tar=false
-embed-application/zip=false
-embed-inode/directory=false
-embed-video/x-matroska=false
