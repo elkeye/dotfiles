@@ -30,8 +30,8 @@ Show Tabs Close Button=true
 Show Url Nav Bar=true
 Show output view for message type=1
 Show text for left and right sidebar=false
-Show welcome view for new window=true
-Startup Session=manual
+Show welcome view for new window=false
+Startup Session=last
 Stash new unsaved files=true
 Stash unsaved file changes=false
 Sync section size with tab positions=false
@@ -39,23 +39,61 @@ Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
-[KDE]
-widgetStyle=Darkly
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=true
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=2
+Use Editor Config=true
+Word Wrap=false
+Word Wrap Column=80
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Auto Color Theme Selection=true
+Auto Color Theme Selection=false
 Color Theme=Catppuccin Mocha
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
-Text Font=FiraCode Nerd Font Mono,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font=FiraCode Nerd Font Mono,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Text Font Features=
 Word Wrap Marker=false
 
 [KTextEditor View]
 Allow Mark Menu=true
-Auto Brackets=true
+Auto Brackets=false
 Auto Center Lines=0
 Auto Completion=true
 Auto Completion Preselect First Entry=true
@@ -115,7 +153,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [Konsole]
-AutoSyncronizeMode=0
+AutoSyncronizeMode=1
 KonsoleEscKeyBehaviour=true
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
@@ -124,9 +162,10 @@ SetEditor=false
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true
+ToolBarsMovable=Disabled
 
 [UiSettings]
-ColorScheme=Catppuccin Mocha Mauve
+ColorScheme=Catppuccin Macchiato Mauve
 
 [filetree]
 editShade=183,220,246
@@ -140,14 +179,14 @@ sortRole=0
 viewShade=211,190,222
 
 [lspclient]
-AllowedServerCommandLines=
+AllowedServerCommandLines=/home/pryniki/.cargo/bin/rust-analyzer
 AutoHover=true
 AutoImport=true
 BlockedServerCommandLines=
 CompletionDocumentation=true
-CompletionParens=true
+CompletionParens=false
 Diagnostics=true
-FormatOnSave=false
+FormatOnSave=true
 HighlightGoto=true
 IncrementalSync=false
 InlayHints=false
@@ -161,3 +200,14 @@ SymbolExpand=true
 SymbolSort=false
 SymbolTree=true
 TypeFormatting=false
+
+[project]
+autoCMake=true
+autorepository=subversion,mercurial
+gitStatusDoubleClick=3
+gitStatusSingleClick=0
+index=false
+indexDirectory=
+multiProjectCompletion=false
+multiProjectGoto=false
+restoreProjectsForSessions=false

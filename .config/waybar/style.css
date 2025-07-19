@@ -4,7 +4,7 @@
 min-height: 0;
 min-width: 0;
 font-family: Lexend, "Font Awesome 6 Free Solid";
-font-size: 16px;
+font-size: 15px;
 font-weight: 600;
 }
 
@@ -23,7 +23,7 @@ min-height: 0;
 min-width: 0;
 padding: 0.3rem 0.6rem;
 margin: 0.4rem 0.25rem;
-border-radius: 6px;
+border-radius: 3px;
 /* background-color: #181825; */
 background-color: #1e1e2e;
 color: #cdd6f4;
@@ -58,7 +58,7 @@ color: #f38ba8;
 min-height: 0;
 min-width: 0;
 padding: 0.3rem 0.6rem;
-border-radius: 6px;
+border-radius: 3px;
 margin: 0.4rem 0.25rem;
 /* background-color: #181825; */
 background-color: #1e1e2e;

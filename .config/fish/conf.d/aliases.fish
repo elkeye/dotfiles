@@ -1,9 +1,11 @@
-function libreowolf
+function librewolf
 command flatpak run io.gitlab.librewolf-community $argv
 end
+
 function keepassxc
 command flatpak run org.keepassxc.KeePassXC $argv
 end
+
 function spotify
 command flatpak run com.spotify.Client
 end
@@ -19,6 +21,11 @@ end
 function ls
 command ls --color=auto $argv
 end
+
 function grep
 command grep --color=auto $argv
+end
+
+function td
+command termdown $argv
 end

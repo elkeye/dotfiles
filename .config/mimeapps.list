@@ -1,7 +1,21 @@
 [Default Applications]
 application/x-zerosize=userapp-kwrite-5A4ZZ2.desktop
 text/plain=userapp-kwrite-NVKXZ2.desktop
+application/x-7z-compressed=org.kde.ark.desktop
+audio/mpeg=io.bassi.Amberol.desktop
+inode/directory=nemo.desktop
+image/jpeg=qimgv.desktop
+application/x-zstd-compressed-tar=org.kde.ark.desktop
+application/vnd.rar=org.kde.ark.desktop
+image/png=qimgv.desktop
 
 [Added Associations]
 application/x-zerosize=userapp-kwrite-5A4ZZ2.desktop;
 text/plain=userapp-kwrite-NVKXZ2.desktop;
+application/x-7z-compressed=org.kde.ark.desktop;
+audio/mpeg=io.bassi.Amberol.desktop;
+inode/directory=nemo.desktop;
+image/jpeg=qimgv.desktop;
+application/x-zstd-compressed-tar=org.kde.ark.desktop;
+application/vnd.rar=org.kde.ark.desktop;
+image/png=qimgv.desktop;

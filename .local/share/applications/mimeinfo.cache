@@ -1,7 +1,7 @@
 [MIME Cache]
 application/pdf=libreoffice.desktop;
+application/pureref=appimagekit_dc0cec3ae40c612f1c89cc506a69a257-PureRef.desktop;
 application/x-7z-compressed=peazip-2.desktop;
+application/x-beeref=appimagekit_0fa163385524362e7013edc7917fd7d5-BeeRef.desktop;
 application/x-bittorrent=qbittorrent.desktop;
-application/x-compressed-tar=org.kde.ark-3.desktop;
-application/zip=org.kde.ark-2.desktop;org.kde.ark-4.desktop;org.kde.ark-5.desktop;org.kde.ark-6.desktop;org.kde.ark-7.desktop;
 video/x-matroska=vlc-2.desktop;

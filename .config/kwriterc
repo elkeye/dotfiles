@@ -35,7 +35,7 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KDE]
-widgetStyle=Darkly
+widgetStyle=kvantum-dark
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
@@ -112,7 +112,7 @@ Word Completion Remove Tail=true
 [MainWindow]
 1920x1080 screen: Height=1080
 1920x1080 screen: Width=1920
-1920x1080 screen: Window-Maximized=true
+ToolBarsMovable=Disabled
 
 [UiSettings]
 ColorScheme=Catppuccin Mocha Mauve
