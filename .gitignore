@@ -6,6 +6,8 @@
 !.dependencies
 !readme.md
 
+!.port/
+
 !.config/
 !.config/.gitignore
 
