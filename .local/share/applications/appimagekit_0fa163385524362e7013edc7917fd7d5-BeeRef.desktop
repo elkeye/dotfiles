@@ -1,0 +1,40 @@
+[Desktop Entry]
+Name=BeeRef (0.3.3)
+GenericName=Image Viewer
+Comment=A simple reference image viewer
+Terminal=false
+Exec=/home/pryniki/.appimages/BeeRef-0.3.3_da92dbe15fa5bda0de74c9259325aec5.appimage
+Type=Application
+Icon=appimagekit_0fa163385524362e7013edc7917fd7d5_logo
+
+MimeType=application/x-beeref;
+Categories=Qt;KDE;Graphics;
+X-KDE-NativeMimeType=application/x-beeref
+X-KDE-ExtraNativeMimeTypes=
+
+X-AppImage-Version=0.3.3
+
+TryExec=/home/pryniki/.appimages/BeeRef-0.3.3_da92dbe15fa5bda0de74c9259325aec5.appimage
+X-AppImage-Old-Icon=logo
+X-AppImage-Old-Name=BeeRef
+X-AppImage-Identifier=0fa163385524362e7013edc7917fd7d5
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 9ca001e), built on 2025-06-12 12:55:00 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/pryniki/.appimages/BeeRef-0.3.3_da92dbe15fa5bda0de74c9259325aec5.appimage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

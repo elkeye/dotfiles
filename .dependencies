@@ -1,4 +1,4 @@
-arch reps = krita cliphist dunst rofi pavucontrol waybar kitty hyprlock hyprpaper sddm kate sassc gtk-murrine-engine gnome-themes-extra wl-clipboard hyprpicker hyprland xdg-desktop-portal-hyprland zoxide
+arch reps = yazi krita cliphist dunst rofi pavucontrol waybar kitty hyprlock hyprpaper sddm kate sassc gtk-murrine-engine gnome-themes-extra wl-clipboard hyprpicker hyprland xdg-desktop-portal-hyprland zoxide
 flatpaks = librewolf
 fonts = FiraCode Nerd, Noto, Awesome
 yay = darkly
