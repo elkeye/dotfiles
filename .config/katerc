@@ -39,9 +39,13 @@ Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
+[KDE]
+widgetStyle=kvantum
+
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
+Auto Reload If Any External Changes Occurs=false
 Auto Reload If State Is In Version Control=true
 Auto Save=false
 Auto Save Interval=0
@@ -62,7 +66,7 @@ Indentation Width=4
 Keep Extra Spaces=false
 Line Length Limit=10000
 Newline at End of File=true
-On-The-Fly Spellcheck=false
+On-The-Fly Spellcheck=true
 Overwrite Mode=false
 PageUp/PageDown Moves Cursor=false
 Remove Spaces=1
@@ -101,6 +105,7 @@ Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
 Bracket Match Preview=false
 Chars To Enclose Selection=<>(){}[]'"
+Cycle Through Bookmarks=true
 Default Mark Type=1
 Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
@@ -163,10 +168,11 @@ SetEditor=false
 [MainWindow]
 1920x1080 screen: Height=1080
 1920x1080 screen: Width=1920
+1920x1080 screen: Window-Maximized=true
 ToolBarsMovable=Disabled
 
 [UiSettings]
-ColorScheme=Catppuccin Macchiato Mauve
+ColorScheme=Kvantum
 
 [filetree]
 editShade=183,220,246
@@ -195,6 +201,7 @@ Messages=true
 ReferencesDeclaration=true
 SemanticHighlighting=true
 ServerConfiguration=
+ShowCompletions=true
 SignatureHelp=true
 SymbolDetails=false
 SymbolExpand=true

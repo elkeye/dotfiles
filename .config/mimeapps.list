@@ -8,6 +8,8 @@ image/jpeg=qimgv.desktop
 application/x-zstd-compressed-tar=org.kde.ark.desktop
 application/vnd.rar=org.kde.ark.desktop
 image/png=qimgv.desktop
+image/x-hdr=qimgv.desktop
+image/bmp=qimgv.desktop
 
 [Added Associations]
 application/x-zerosize=userapp-kwrite-5A4ZZ2.desktop;
@@ -19,3 +21,5 @@ image/jpeg=qimgv.desktop;
 application/x-zstd-compressed-tar=org.kde.ark.desktop;
 application/vnd.rar=org.kde.ark.desktop;
 image/png=qimgv.desktop;
+image/x-hdr=qimgv.desktop;
+image/bmp=qimgv.desktop;
