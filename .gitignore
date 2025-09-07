@@ -15,7 +15,8 @@
 !.local/
 !.local/.gitignore
 
-# Ignore all files named '.DS_Store' ending with '.log'and containing '.log.' in the name
+# Ignore all files containing '.DS_Store', ending with '.log' etc,.
 **/.DS_Store
 **.log
 **.log.**
+**.bak
