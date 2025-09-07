@@ -1,19 +1,11 @@
 # Blocklist files/folders in same directory as the .gitignore file
 /*
 
-# Include
+# Includelist some files
 !.gitignore
-!.dependencies
-!readme.mi
-!.TODO
 
-!.port/
-
-!.config/
-!.config/.gitignore
-
-!.local/
-!.local/.gitignore
+!colorschemes
+!settings.json
 
 # Ignore all files named .DS_Store or ending with .log
 **/.DS_Store
