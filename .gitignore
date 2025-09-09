@@ -1,7 +1,12 @@
-# Blocklist files/folders in same directory as the .gitignore file
+# Main .gitignore contains longer comments than child ones
+# Order of files/folders position is semi-arbitrary, sometimes alphabetic
+
+
+
+# Ignore files/folders in same directory as the .gitignore file
 /*
 
-# Include
+# Include files/folders:
 !.gitignore
 !.dependencies
 !readme.md
@@ -15,8 +20,8 @@
 !.local/
 !.local/.gitignore
 
-# Ignore all files containing '.DS_Store', ending with '.log' etc,.
-**/.DS_Store
-**.log
-**.log.**
-**.bak
+# Ignore all files/folders containing specific string in the whole repository
+**/.DS_Store 
+**/*.log # Ignore files ending with ".log"
+**/*.log.* # Ignore files containing ".log."
+**/*.bak

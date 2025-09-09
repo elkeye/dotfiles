@@ -4,5 +4,6 @@
 # Include
 !.gitignore
 
-!share/
-!share/.gitignore
+!themes/
+
+!btop.conf

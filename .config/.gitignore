@@ -1,35 +1,30 @@
-# Blocklist files/folders in same directory as the .gitignore file
+# Ignore
 /*
 
-# Includelist some files
+# Include
 !.gitignore
-!README.md
 
-!bat
-!btop
-!dunst
-!fish
-!hypr
-!kitty
-!micro
-!nvim
-!rofi
-!scripts
-!waybar
-!yazi
+!bat/
+!btop/
+!dunst/
+!fish/
+!hypr/
+!kitty/
+!micro/
+!nvim/
+!rofi/
+!scripts/
+!waybar/
+!yazi/
 
 !mimeapps.list
 
-!qt5ct
-!qt6ct
-!gtk-2.0
-!gtk-3.0
-!gtk-4.0
-!kate
+!qt5ct/
+!qt6ct/
+!gtk-2.0/
+!gtk-3.0/
+!gtk-4.0/
+!kate/
 !katerc
 !kwriterc
-!Kvantum
-
-# Ignore all files named .DS_Store or ending with .log
-**/.DS_Store
-**.log
+!Kvantum/
