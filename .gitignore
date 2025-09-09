@@ -4,7 +4,7 @@
 # Include
 !.gitignore
 !.dependencies
-!readme.mi
+!readme.md
 !.TODO
 
 !.port/
