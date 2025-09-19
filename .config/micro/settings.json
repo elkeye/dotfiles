@@ -1,4 +1,5 @@
 {
+	"autoclose": false,
     "colorscheme": "catppuccin-mocha",
 	"clipboard": "external",
 }
