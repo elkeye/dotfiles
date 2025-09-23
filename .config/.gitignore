@@ -16,6 +16,7 @@
 !scripts/
 !waybar/
 !yazi/
+!zed/
 
 !mimeapps.list
 
@@ -24,7 +25,4 @@
 !gtk-2.0/
 !gtk-3.0/
 !gtk-4.0/
-!kate/
-!katerc
-!kwriterc
 !Kvantum/
