@@ -7,11 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "hide_gitignore": true
+  },
+  "ssh_connections": [
+    {
+      "host": "think",
+      "projects": [
+        {
+          "paths": ["/home/admin/qq/install"]
+        }
+      ]
+    }
+  ],
   "disable_ai": true,
   "icon_theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha"
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
@@ -20,6 +33,6 @@
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha"
   }
 }

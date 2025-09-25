@@ -8,11 +8,9 @@
 
 # Include files/folders:
 !.gitignore
-!.dependencies
+!.packages
 !readme.md
 !.TODO
-
-!.port/
 
 !.config/
 !.config/.gitignore
