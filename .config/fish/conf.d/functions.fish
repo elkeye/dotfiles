@@ -1,3 +1,7 @@
+function KDE
+command /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
+end
+
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
 	yazi $argv --cwd-file="$tmp"

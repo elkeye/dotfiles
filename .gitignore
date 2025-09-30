@@ -18,6 +18,8 @@
 !.local/
 !.local/.gitignore
 
+!scripts/
+
 # Ignore all files/folders containing specific string in the whole repository
 **/*.DS_Store # Ignore files/folders with name ".DS_Store"
 **/*.log
