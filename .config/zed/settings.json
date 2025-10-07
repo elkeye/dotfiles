@@ -34,5 +34,6 @@
     "mode": "dark",
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
-  }
+  },
+  "hover_popover_delay": 0
 }
