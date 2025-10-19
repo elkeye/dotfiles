@@ -13,9 +13,17 @@
   "ssh_connections": [
     {
       "host": "think",
+      "args": [],
       "projects": [
         {
-          "paths": ["/home/admin/qq/install"]
+          "paths": [
+            "/home/admin/qq/install"
+          ]
+        },
+        {
+          "paths": [
+            "/home/admin/qq/wiki"
+          ]
         }
       ]
     }
