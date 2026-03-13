@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Sabaki (0.52.2)
+Exec=/home/pryniki/.appimages/sabaki-v0.52.2-linux-x64.AppImage --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=appimagekit_dfb642f3d80fa2e72c7111702140fd6f_sabaki
+StartupWMClass=Sabaki
+X-AppImage-Version=0.52.2
+Comment=An elegant Go/Baduk/Weiqi board and SGF editor for a more civilized age.
+Categories=Game;
+
+TryExec=/home/pryniki/.appimages/sabaki-v0.52.2-linux-x64.AppImage
+X-AppImage-Old-Icon=sabaki
+X-AppImage-Old-Name=Sabaki
+X-AppImage-Identifier=dfb642f3d80fa2e72c7111702140fd6f
+Actions=AppImageLauncher-Remove-AppImage;
+X-AppImageLauncher-Version=3.0.0-beta-2 (git commit release/tag), built on 2025-12-27 13:36:47 UTC
+
+[Desktop Action AppImageLauncher-Remove-AppImage]
+Name=Delete this AppImage
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/pryniki/.appimages/sabaki-v0.52.2-linux-x64.AppImage"

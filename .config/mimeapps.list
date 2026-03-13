@@ -10,6 +10,14 @@ application/vnd.rar=org.kde.ark.desktop
 image/png=qimgv.desktop
 image/x-hdr=qimgv.desktop
 image/bmp=qimgv.desktop
+video/mp4=mpv.desktop
+video/quicktime=mpv.desktop
+application/zip=org.kde.ark.desktop
+image/tiff=userapp-qimgv-SDVQF3.desktop
+image/x-portable-pixmap=userapp-qimgv-GXWYF3.desktop
+image/x-portable-bitmap=userapp-qimgv-D7IXF3.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+video/vnd.avi=mpv.desktop
 
 [Added Associations]
 application/x-zerosize=userapp-kwrite-5A4ZZ2.desktop;
@@ -23,3 +31,10 @@ application/vnd.rar=org.kde.ark.desktop;
 image/png=qimgv.desktop;
 image/x-hdr=qimgv.desktop;
 image/bmp=qimgv.desktop;
+video/mp4=mpv.desktop;
+video/quicktime=mpv.desktop;
+application/zip=org.kde.ark.desktop;
+image/tiff=userapp-qimgv-SDVQF3.desktop;
+image/x-portable-pixmap=userapp-qimgv-GXWYF3.desktop;
+image/x-portable-bitmap=userapp-qimgv-D7IXF3.desktop;
+video/vnd.avi=mpv.desktop;

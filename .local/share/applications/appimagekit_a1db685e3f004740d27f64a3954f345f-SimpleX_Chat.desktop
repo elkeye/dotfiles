@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=SimpleX Chat
+Comment=Private and secure open-source messenger - no user IDs (not even random numbers)
+Exec=/home/pryniki/.appimages/simplex-desktop-x86_64.AppImage
+Icon=appimagekit_a1db685e3f004740d27f64a3954f345f_simplex
+Categories=Network;Chat;
+
+TryExec=/home/pryniki/.appimages/simplex-desktop-x86_64.AppImage
+X-AppImage-Old-Icon=simplex
+X-AppImage-Identifier=a1db685e3f004740d27f64a3954f345f
+Actions=AppImageLauncher-Remove-AppImage;
+X-AppImageLauncher-Version=3.0.0-beta-2 (git commit release/tag), built on 2025-12-27 13:36:47 UTC
+
+[Desktop Action AppImageLauncher-Remove-AppImage]
+Name=Delete this AppImage
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/pryniki/.appimages/simplex-desktop-x86_64.AppImage"

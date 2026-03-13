@@ -1,1 +1,7 @@
-smb://192.168.1.63/home1/ NAS
+file:///home/pryniki/Downloads Downloads
+file:///home/pryniki/pictures pictures
+file:///home/pryniki/documents/art/art art
+file:///home/pryniki/.appimages .appimages
+file:/// /
+sftp://admin@192.168.1.60/home/admin admin
+smb://192.168.1.63/ NAS

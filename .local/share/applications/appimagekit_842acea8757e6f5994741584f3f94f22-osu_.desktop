@@ -1,0 +1,25 @@
+# Desktop Entry Specification: https://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+[Desktop Entry]
+Version=1.5
+Type=Application
+Name=osu!
+Comment=A free-to-win rhythm game. Rhythm is just a *click* away!
+Icon=appimagekit_842acea8757e6f5994741584f3f94f22_osu
+Exec=/home/pryniki/.appimages/osu_33596f959bd0a0e88b869d6a2381ed54.AppImage %u
+Terminal=false
+MimeType=application/x-osu-beatmap-archive;application/x-osu-skin-archive;application/x-osu-beatmap;application/x-osu-storyboard;application/x-osu-replay;x-scheme-handler/osu;
+Categories=Game;
+StartupWMClass=osu!
+SingleMainWindow=true
+StartupNotify=true
+
+TryExec=/home/pryniki/.appimages/osu_33596f959bd0a0e88b869d6a2381ed54.AppImage
+X-AppImage-Old-Icon=osu
+X-AppImage-Identifier=842acea8757e6f5994741584f3f94f22
+Actions=AppImageLauncher-Remove-AppImage;
+X-AppImageLauncher-Version=3.0.0-beta-2 (git commit release/tag), built on 2025-12-27 13:36:47 UTC
+
+[Desktop Action AppImageLauncher-Remove-AppImage]
+Name=Delete this AppImage
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/pryniki/.appimages/osu_33596f959bd0a0e88b869d6a2381ed54.AppImage"
