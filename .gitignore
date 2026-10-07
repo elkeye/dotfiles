@@ -25,3 +25,5 @@
 **/*.log
 **/*.log.* # Ignore files/folders containing ".log."
 **/*.bak
+**/*.cache
+**/*appimagekit*

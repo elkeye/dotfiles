@@ -9,5 +9,6 @@
 !zed/extensions/index.json
 
 !icons/
+!icons/.gitignore
 !themes/
 !color-schemes/
